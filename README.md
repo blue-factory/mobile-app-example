@@ -27,7 +27,7 @@ Find **Protocol Buffers Descriptions** at the [`./lib/proto/demo.proto`](./lib/p
 | [Gateway Service](https://github.com/microapis/gateway-api/)         | Typescript | service that acts as a 'data aggregation layer' through GraphQL. Through it you can access the resources provided by the back-end microservices.                 |
 | [Users Service](https://github.com/microapis/users-api/)             | Golang     | Microservice implemented in Golang that stores user information into postgres DB.                                                                                |
 | [Auth Service](https://github.com/microapis/auth-api/)               | Golang     | Microservice implemented in Typecript that allows authenticating access to the backend through a JWT token. On the other hand, it manages user signup and login. |
-| [Restaurants Service](https://github.com/microapis/restaurants-api/) | Golang     | Microservice implemented in Golang that get nearby restaurants from Google Places API.                                                                           |
+| [Places Service](https://github.com/microapis/places-api/)           | Golang     | Microservice implemented in Golang that get nearby places from Google Places API.                                                                                |
 | [History Service](https://github.com/microapis/history-api/)         | Golang     | The microservice implemented in Golang saves the history associated with searches performed in the restaurant service.                                           |
 | [NATS Server](https://hub.docker.com/_/nats)                         | -          | NATS is an open-source, high-performance, cloud native messaging system.                                                                                         |
 
@@ -39,8 +39,7 @@ Find **Protocol Buffers Descriptions** at the [`./lib/proto/demo.proto`](./lib/p
 
 ## Prepare Project
 
-- Clone repo: `git clone git@github.com:microapis/challenge.git`.
-- Initialize sub modules: `git submodule update --init`.
+- Clone repo: `git clone git@github.com:microapis/nearby-places-example.git`.
 - Prepare all repos with `make prepare` command.
 
 ## Docker Commands (Development)
